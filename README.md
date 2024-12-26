@@ -27,9 +27,18 @@ here click on create function
 
 After this, the POST method is added to handle the creation of new ToDo tasks. 
 
+https://github.com/suraj5929/TodoApp/blob/5e748289e32788d54a1e3b972dde5135ba86ffd4/lambda_app.py#L11
+
 <img width="1462" alt="Screenshot 2024-12-26 at 3 00 28 PM" src="https://github.com/user-attachments/assets/f6b52703-4219-4169-9555-f3fb3da8defb" />
 
+3. Create api gateway
+    Using API Gateway to call Lambda functions allows you to create a serverless API that interacts with AWS Lambda for business logic or data processing. API Gateway acts as the "front door" for applications, enabling them to call Lambda functions via HTTP requests.
+   
+<img width="1470" alt="Screenshot 2024-12-26 at 3 03 04 PM" src="https://github.com/user-attachments/assets/3aa3f534-3c0d-4e42-add7-e8a3587caefb" />
+
+
 select REST API-
+
 ![Screenshot 2024-12-26 at 1 18 29 AM (2)](https://github.com/user-attachments/assets/ad52f177-577e-4d5c-b156-8cc4ca63266a)
 
 
@@ -37,11 +46,15 @@ select REST API-
 
 After this go to Resources -> Create method
 
+
 <img width="1470" alt="Screenshot 2024-12-26 at 3 05 00 PM" src="https://github.com/user-attachments/assets/0db0534e-2cbc-42eb-890f-5ef9cc7fa515" />
+
+
 select Lambda proxy integration because Lambda Proxy Integration is a feature in Amazon API Gateway that allows you to directly invoke an AWS Lambda function from an API endpoint while passing all parts of the HTTP request to the Lambda function. The Lambda function, in turn, processes the request and returns a response in a specific format that API Gateway can use to return the appropriate HTTP response to the client.
 
 after creation of api resource test the api
 <img width="1130" alt="Screenshot 2024-12-26 at 3 07 02 PM" src="https://github.com/user-attachments/assets/8f179838-528b-445f-93de-e1faca4c048e" />
+
 <img width="1470" alt="Screenshot 2024-12-26 at 3 07 31 PM" src="https://github.com/user-attachments/assets/c402f07a-cadc-4d07-9cd6-9c4cc3da7ec1" />
 After that as we can see item got added in dynamodb table
 <img width="847" alt="Screenshot 2024-12-26 at 3 08 20 PM" src="https://github.com/user-attachments/assets/386b9192-c771-4ac2-b703-1c3f51f440ac" />
