@@ -19,7 +19,6 @@ Steps
   <img width="1470" alt="Screenshot 2024-12-26 at 2 49 45 PM" src="https://github.com/user-attachments/assets/918f5e3d-b9e7-46ac-9182-98258701c127" />
 
 2. create lambda function-
-  ![Screenshot 2024-12-26 at 2 54 58 PM (2)](https://github.com/user-attachments/assets/24b86ae6-5a64-44f3-aa39-884285424723)
 
   <img width="1470" alt="Screenshot 2024-12-26 at 2 54 58 PM" src="https://github.com/user-attachments/assets/b219fdd3-e0d2-4c30-9331-ec9d8a8b350a" />
 here click on create function
