@@ -19,6 +19,8 @@ Steps
   <img width="1470" alt="Screenshot 2024-12-26 at 2 49 45 PM" src="https://github.com/user-attachments/assets/918f5e3d-b9e7-46ac-9182-98258701c127" />
 
 2. create lambda function-
+    A Lambda function is a serverless compute service provided by AWS that allows you to run code in response to events without provisioning or managing servers. AWS Lambda automatically scales the execution of functions based on the incoming event and handles the underlying infrastructure, letting you focus solely on the logic of the application.
+
 
   <img width="1470" alt="Screenshot 2024-12-26 at 2 54 58 PM" src="https://github.com/user-attachments/assets/b219fdd3-e0d2-4c30-9331-ec9d8a8b350a" />
 here click on create function
@@ -33,6 +35,7 @@ https://github.com/suraj5929/TodoApp/blob/5e748289e32788d54a1e3b972dde5135ba86ff
 
 3. Create api gateway
     Using API Gateway to call Lambda functions allows you to create a serverless API that interacts with AWS Lambda for business logic or data processing. API Gateway acts as the "front door" for applications, enabling them to call Lambda functions via HTTP requests.
+
    
 <img width="1470" alt="Screenshot 2024-12-26 at 3 03 04 PM" src="https://github.com/user-attachments/assets/3aa3f534-3c0d-4e42-add7-e8a3587caefb" />
 
@@ -56,7 +59,9 @@ after creation of api resource test the api
 
 <img width="1130" alt="Screenshot 2024-12-26 at 3 07 02 PM" src="https://github.com/user-attachments/assets/8f179838-528b-445f-93de-e1faca4c048e" />
 
+
 <img width="1470" alt="Screenshot 2024-12-26 at 3 07 31 PM" src="https://github.com/user-attachments/assets/c402f07a-cadc-4d07-9cd6-9c4cc3da7ec1" />
+
 
 After that as we can see item got added in dynamodb table
 
