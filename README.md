@@ -1,4 +1,4 @@
-<img width="1462" alt="Screenshot 2024-12-26 at 3 00 28 PM" src="https://github.com/user-attachments/assets/e510be58-29df-4098-885b-8721a94e41e8" /><img width="1470" alt="Screenshot 2024-12-26 at 2 49 38 PM" src="https://github.com/user-attachments/assets/809eec1e-bd58-4ef4-ae41-7479214fc1b8" /># TodoApp
+# TodoApp
 Architecture Overview
 
 ![Screenshot 2024-12-26 at 2 46 01 PM](https://github.com/user-attachments/assets/63d62ddf-08b7-4c42-9a34-40acac47db7f)
